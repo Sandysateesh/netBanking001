@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [netBankingV2]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test Case-1(failed)" verbose="0">
+    <classes>
+      <class name="com.netBanking.testCases.TC_LoginTest_002">
+        <methods>
+          <include name="newCustomer"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.netBanking.testCases.TC_LoginTest_002 -->
+    </classes>
+  </test> <!-- Test Case-1(failed) -->
+</suite> <!-- Failed suite [netBankingV2] -->
